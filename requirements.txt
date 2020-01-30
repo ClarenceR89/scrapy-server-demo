@@ -1,0 +1,4 @@
+scrapyd
+scrapyd-client
+scrapyrt
+pylint
