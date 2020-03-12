@@ -34,5 +34,6 @@ volumes:
     scrapyd-data:
 
 networks:
-    dev-network:
-        driver: bridge
+    app-network:
+        external:
+            name: rimu-meta-eu1-devtools_app-network
